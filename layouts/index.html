@@ -1,2 +1,4 @@
 {{ define "main" }}
+{{ $icon := resources.Get "svg/heroicons/outline/search.svg" }}
+{{ $icon.Content | safeHTML }}
 {{ end }}
